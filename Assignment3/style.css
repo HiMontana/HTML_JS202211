@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium; 
+    color: blueviolet;  
+}
+
+#container{
+    width: 970px;
+    padding: 10px;
+}
+
+h1{
+    width: 950px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightpink;
+    border: 2px solid purple;
+}
+
+.sections{
+    width: 950px;
+    padding: 10px;
+    background-color: lightpink;
+}
+img{
+    border: 5px solid purple;
+}
+
+.nav-bar{
+    width: 140px;
+    height: 40px;
+    background-color: rgb(223, 94, 202);
+    text-decoration: none;
+    line-height: 50px;
+    color: white;
+}
+
+.nav-bar:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.link{
+    color: blueviolet;
+    text-decoration: none;
+}
