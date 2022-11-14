@@ -42,12 +42,12 @@ function GameObject(){
         if(this.y > canvas.height - this.radius){
             // make sure doesnt leave the screen
             this.y = canvas.height - this.radius
-            this.vy = - this.vy
+            this.vy = -this.vy
         }
         //top
-        if(this.y < 0 + this.radius){
-            this.y = this .radius 
-            this.y = this.vy * -1
+        if(this.y < this.radius){
+            this.y = this.radius 
+            this.vy = this.vy * -1
         }
         //right side
         if(this.x > canvas.width - this.radius){
@@ -92,11 +92,11 @@ square{6}.drawSquare()
 square{7}.drawSquare()
 square{8}.drawSquare()*/
 
- var numSquares = 70
+ /*var numSquares = 70
  for(var i = 0; i<numSquares; i++){
     squares[i] = new GameObject()
     squares[i].drawSquare();   
- }
+ }*/
 
 var circles = []
 var numCircles = 69
