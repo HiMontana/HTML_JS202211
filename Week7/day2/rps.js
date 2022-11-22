@@ -156,5 +156,5 @@ function playGame(playerChoice){
           
    }
    
-    }
+       }
 }
