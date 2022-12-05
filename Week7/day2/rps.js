@@ -38,10 +38,10 @@ function draw(rock, paper, scissors, crock, cpaper, cscissors) {
    if (gameOver == true) {
       //drawing fonts
       ctx.font = "40px Ariel"
-      ctx.fillStyle = "blue"
-      ctx.strokeStyle = "purple"
+      ctx.fillStyle = "orange"
+      ctx.strokeStyle = "black"
       ctx.textAlign = "center"
-      ctx.fillText("WELCOME TO THE RPS GAME", canvas.width / 2, 280)
+      ctx.fillText("WELCOME TO THE FINAL GETSUGA TENSHOU", canvas.width / 2, 280)
       ctx.fillText("Press SPACE to start", canvas.width / 2, 320)
       ctx.strokeText("WELCOME TO THE RPS GAME", canvas.width / 2, 280)
    }
@@ -51,7 +51,7 @@ function draw(rock, paper, scissors, crock, cpaper, cscissors) {
       ctx.clearRect(0, 0, canvas.width, canvas.height)
       ctx.font = "30px Ariel"
       ctx.tectAlign = "center"
-      ctx.fillStyle = "pink"
+      ctx.fillStyle = "orange"
       ctx.fillText("Player Choice", canvas.width / 2, 100)
       ctx.drawImage(rock, canvas.width / 2 - rock.width / 2 - 100, 150)
       ctx.drawImage(paper, canvas.width / 2 - paper.width / 2, 150)

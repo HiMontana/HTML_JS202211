@@ -7,7 +7,12 @@
     <title>Rock, Paper, Scissor's Game</title>
     <style>
         canvas{
-            border: 1px solid black;
+        justify-content: center;
+        }
+        html,body{
+            background-image: url(images/background.jpg);
+            background-color: transparent;
+            justify-content: center;
         }
     </style>
 </head>
@@ -19,7 +24,10 @@
             <button id="paper">Paper</button>
             <button id="scissors">Scissors</button>
         </nav>
-        <canvas id="c" width="1000" height="600"></canvas>
+        <div style="text-align:center;">
+<canvas id="c" width="1000" height="600"></canvas>
+        </div>
+        
     </div>
     <script src="rps.js"></script>
 </body>
