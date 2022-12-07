@@ -78,7 +78,7 @@ function main(){
 }
 
 function drawStartFinish(){
-    ctx.fillStyle = "black"
+    ctx.fillStyle = "orange"
     //start line
     ctx.fillRect(start, 50, 10, 500)
     //FINISH LINE
