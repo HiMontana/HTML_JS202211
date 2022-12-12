@@ -7,6 +7,18 @@ var highScore = 0
 var currentState = 0
 var gameState = []
 
+//sprites
+var asteroidSprite = new Image()
+asteroidSprite.src = "images/asteroid.png"
+asteroidSprite.onload = function(){
+    main
+}
+
+var shipSprite =new Image()
+shipSprite.src = "image/ship.jpeg"
+shipSprite.onload = function(){
+    main()
+}
 
 
 
