@@ -169,9 +169,9 @@ function PlayerShip() {
 
         //draw ship
        
-        //ctx.fillStyle = "Blue"
+        ctx.fillStyle = "Blue"
         ctx.beginPath()
-        ctx.drawImage(shipSprite,this.width,this.height)
+        //ctx.drawImage(shipSprite,this.width,this.height)
         ctx.moveTo(0, -10)
         ctx.lineTo(10, 10)
         ctx.lineTo(-10, 10)
