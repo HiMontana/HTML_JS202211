@@ -11,11 +11,11 @@ var gameState = []
 var asteroidSprite = new Image()
 asteroidSprite.src = "images/asteroid.png"
 asteroidSprite.onload = function(){
-    main
+    main()
 }
 
 var shipSprite =new Image()
-shipSprite.src = "image/ship.jpeg"
+shipSprite.src = "images/ship.png"
 shipSprite.onload = function(){
     main()
 }
@@ -115,9 +115,10 @@ function Asteroid() {
     this.y = randomRange(canvas.height - this.radius, this.radius) - canvas.height
     this.vy = randomRange(10, 5)
     this.color = "grey"
+    
 
     //methods functions to draw asteroids
-    this.drawAsteroid = function () {
+    this.drawAsteroid = function(){
         ctx.save()
         ctx.beginPath()
         ctx.fillStyle = this.color
@@ -167,8 +168,10 @@ function PlayerShip() {
         }
 
         //draw ship
-        ctx.fillStyle = "Blue"
+       
+        //ctx.fillStyle = "Blue"
         ctx.beginPath()
+        ctx.drawImage(shipSprite,this.width,this.height)
         ctx.moveTo(0, -10)
         ctx.lineTo(10, 10)
         ctx.lineTo(-10, 10)

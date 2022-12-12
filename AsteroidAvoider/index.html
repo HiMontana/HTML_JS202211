@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asteroid Avoider</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Teko">
     <style>
         html,body{
             display: flex;
@@ -19,10 +20,28 @@
             background-image: url(images/background.gif);
             background-size: cover;
         }
+        h1{
+            text-align: center;
+            color: blueviolet;
+            font-size: xx-large;
+            font-family: "teko",serif;
+        }
+        footer{
+            text-align: center;
+            color: blueviolet;
+            font-size: xx-large;
+        }
     </style>
 </head>
 <body>
+    
+    <div id="container">
+    <header><h1>AsteroidAvoider</h1></header>
     <canvas id="canvas" width="1000" height="800"></canvas>
     <script src="AsteroidAvoider.js"></script>
+    <footer> <p>&copy;2022 Montana Powers HTML/Javascript</p></footer>
+    </div>
+   
+    
 </body>
 </html>
