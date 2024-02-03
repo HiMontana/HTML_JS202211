@@ -23,7 +23,7 @@ shipSprite.onload = function(){
 
 
 //asteroid variables
-var numAsteroids = 50
+var numAsteroids = 2
 var asteroids = []
 
 //player ship VARIABLE
